@@ -15,8 +15,41 @@ nav {
 	background: lightsteelblue;
 }
 
-/* -------------------------------------------- */
-/* tady piš svoje CSS */
-/* -------------------------------------------- */
+.kontejner{
+	display: flex;
+	flex-direction: column ;
+			
+}
+.Hlavicka{
+	flex-grow: 1;
+	
+}
+.Paticka{
+	flex-grow: 1;
+
+	  }
+
+.main {
+	display: flex;
+	align-items: stretch;
+	
+	
+     
+}	
+article{
+	flex-grow: 1;
+	flex-basis: 60%;
+	
+}
+aside,
+nav{
+	flex-grow: 2;
+	flex-basis: 20%;
+}
+
+
+
+
+
 
 
