@@ -15,6 +15,45 @@ nav {
 	background: lightsteelblue;
 }
 
+.kontejner{
+	display: flex;
+	
+}
+
+.navigace{
+	display: flex;
+	justify-content: start;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	
+    
+	
+	
+}
+.paticka{
+align-items: flex-end;
+
+
+
+}
+
+.hlavicka{
+align-items: flex-start;
+
+
+
+  }
+.vypln{
+display: flex;
+
+
+}
+
+
+
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
