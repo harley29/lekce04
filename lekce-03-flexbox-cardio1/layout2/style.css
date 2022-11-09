@@ -15,30 +15,46 @@ nav {
 	background: lightsteelblue;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	height: 100vh;
+	width: 20vw;
+}
+
+header,footer{
+	width: 80vw;
+	height: 20vh;
+}
+article,aside{
+	height: 60vh;
+	width: 40vw;
+}
+
 .kontejner{
 	display: flex;
 	
 }
-
-.navigace{
+.article{
 	display: flex;
-	justify-content: start;
 }
+
 
 .main{
 	display: flex;
 	flex-direction: column;
-	
-    
-	
 	
 }
 .paticka{
 align-items: flex-end;
 
 
-
 }
+
+
 
 .hlavicka{
 align-items: flex-start;
