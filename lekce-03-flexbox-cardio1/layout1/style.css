@@ -15,33 +15,30 @@ nav {
 	background: lightsteelblue;
 }
 
-.kontejner{
-	display: flex;
-	flex-direction: column ;
-	
+body{
+	margin: 0;
+	padding: 0;
+}		
 
-			
-}
-.Hlavicka{
-	flex-grow: 1;
+header{
+	height: 20vh;
+	width: 100vw;
 	
 }
-.Paticka{
-	flex-grow: 1;
+footer{
+	height: 20vh;
+	width: 100vw;
 
 	  }
 
 .main {
 	display: flex;
-	align-items: stretch;
-	
-	
+
      
 }	
 article{
-	flex-grow: 1;
-	flex-basis: 60%;
-	
+	width: 60vw;
+	height: 60vh;
 }
 aside,
 nav{
